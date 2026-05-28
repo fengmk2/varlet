@@ -273,7 +273,7 @@ importers:
     dependencies:
       unocss:
         specifier: ^0.58.5
-        version: 0.58.9(postcss@8.5.10)(vite@8.0.14(@types/node@22.19.17)(esbuild@0.23.1)(jiti@2.6.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+        version: 0.58.9(postcss@8.5.15)(vite@8.0.14(@types/node@22.19.17)(esbuild@0.23.1)(jiti@2.6.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
     devDependencies:
       '@types/node':
         specifier: 'catalog:'
@@ -7021,7 +7021,7 @@ snapshots:
       gzip-size: 6.0.0
       sirv: 2.0.4
 
-  '@unocss/postcss@0.58.9(postcss@8.5.10)':
+  '@unocss/postcss@0.58.9(postcss@8.5.15)':
     dependencies:
       '@unocss/config': 0.58.9
       '@unocss/core': 0.58.9
@@ -7029,7 +7029,7 @@ snapshots:
       css-tree: 2.3.1
       fast-glob: 3.3.3
       magic-string: 0.30.21
-      postcss: 8.5.10
+      postcss: 8.5.15
 
   '@unocss/preset-attributify@0.58.9':
     dependencies:
@@ -7295,7 +7295,7 @@ snapshots:
       '@oxc-project/runtime': 0.133.0
       '@oxc-project/types': 0.133.0
       lightningcss: 1.32.0
-      postcss: 8.5.10
+      postcss: 8.5.15
     optionalDependencies:
       '@types/node': 20.19.39
       esbuild: 0.27.7
@@ -7312,7 +7312,7 @@ snapshots:
       '@oxc-project/runtime': 0.133.0
       '@oxc-project/types': 0.133.0
       lightningcss: 1.32.0
-      postcss: 8.5.10
+      postcss: 8.5.15
     optionalDependencies:
       '@types/node': 22.19.17
       esbuild: 0.23.1
@@ -7328,7 +7328,7 @@ snapshots:
       '@oxc-project/runtime': 0.133.0
       '@oxc-project/types': 0.133.0
       lightningcss: 1.32.0
-      postcss: 8.5.10
+      postcss: 8.5.15
     optionalDependencies:
       '@types/node': 22.19.17
       esbuild: 0.27.7
@@ -11352,13 +11352,13 @@ snapshots:
 
   unix-crypt-td-js@1.1.4: {}
 
-  unocss@0.58.9(postcss@8.5.10)(vite@8.0.14(@types/node@22.19.17)(esbuild@0.23.1)(jiti@2.6.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)):
+  unocss@0.58.9(postcss@8.5.15)(vite@8.0.14(@types/node@22.19.17)(esbuild@0.23.1)(jiti@2.6.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       '@unocss/astro': 0.58.9(vite@8.0.14(@types/node@22.19.17)(esbuild@0.23.1)(jiti@2.6.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
       '@unocss/cli': 0.58.9
       '@unocss/core': 0.58.9
       '@unocss/extractor-arbitrary-variants': 0.58.9
-      '@unocss/postcss': 0.58.9(postcss@8.5.10)
+      '@unocss/postcss': 0.58.9(postcss@8.5.15)
       '@unocss/preset-attributify': 0.58.9
       '@unocss/preset-icons': 0.58.9
       '@unocss/preset-mini': 0.58.9
