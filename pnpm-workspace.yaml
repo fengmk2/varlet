@@ -14,6 +14,11 @@ minimumReleaseAgeExclude:
   - vitest
   - '@vitest/*'
 
+overrides:
+  '@voidzero-dev/vite-plus-core': 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@5577b0154f33d1480a3c96347e94fa5d2094de2e'
+  '@voidzero-dev/vite-plus-prompts': 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@5577b0154f33d1480a3c96347e94fa5d2094de2e'
+  vite: 'catalog:'
+
 catalog:
   typescript: 5.6.3
   vue: 3.5.21
