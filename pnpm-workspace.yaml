@@ -1,19 +1,36 @@
 packages:
   - 'packages/*'
 
+blockExoticSubdeps: false
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - vitest
+  - '@vitest/*'
+
+overrides:
+  '@voidzero-dev/vite-plus-core': 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@5577b0154f33d1480a3c96347e94fa5d2094de2e'
+  '@voidzero-dev/vite-plus-prompts': 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@5577b0154f33d1480a3c96347e94fa5d2094de2e'
+  vite: 'catalog:'
+
 catalog:
   typescript: 5.6.3
   vue: 3.5.21
   vue-router: 4.5.1
-  vite: 'npm:@voidzero-dev/vite-plus-core@0.1.18'
-  vitest: 'npm:@voidzero-dev/vite-plus-test@0.1.18'
+  vite: 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588'
   jsdom: 26.1.0
   fs-extra: ^9.0.1
   live-server: ^1.2.1
   rimraf: ^5.0.1
   tinyexec: ^0.3.0
   rattail: ^2.0.9
-  vite-plus: 0.1.18
+  vite-plus: 'https://pkg.pr.new/voidzero-dev/vite-plus@1588'
   '@types/node': ^20.19.0
   '@vitest/coverage-istanbul': 4.1.4
   '@vue/runtime-core': 3.5.21
@@ -22,4 +39,3 @@ catalog:
   '@vitejs/plugin-vue-jsx': 5.1.5
   '@vue/babel-plugin-jsx': 1.5.0
   '@vue/test-utils': 2.4.6
-
