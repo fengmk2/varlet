@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
-    "@vitest/coverage-istanbul": "catalog:",
+    "@vitest/coverage-istanbul": "4.1.9",
     "@varlet/cli": "workspace:*",
     "@varlet/touch-emulator": "workspace:*",
     "@varlet/ui": "workspace:*",
@@ -72,7 +72,7 @@
     "live-server": "catalog:",
     "shiki": "^1.21.0",
     "typescript": "catalog:",
-    "vitest": "catalog:",
+    "vitest": "4.1.9",
     "vue": "catalog:",
     "vue-router": "catalog:",
     "zod": "^3.23.8"

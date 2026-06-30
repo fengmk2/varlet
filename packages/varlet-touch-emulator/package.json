@@ -27,6 +27,7 @@
     "build": "vp pack && node build.js"
   },
   "devDependencies": {
-    "vite-plus": "catalog:"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f",
+    "vite-plus": "0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f"
   }
 }

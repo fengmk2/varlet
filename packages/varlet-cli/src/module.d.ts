@@ -3,7 +3,7 @@ declare module 'less' {
 }
 
 declare module 'jest' {
-  declare const runCLI: any
+  export declare const runCLI: any
 
   export default { runCLI }
 }
