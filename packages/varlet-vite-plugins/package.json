@@ -41,7 +41,7 @@
     "@types/markdown-it": "^12.2.3",
     "@types/node": "catalog:",
     "typescript": "catalog:",
-    "vite-plus": "0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f"
+    "vite-plus": "0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b"
   },
   "peerDependencies": {
     "vite": "catalog:"
