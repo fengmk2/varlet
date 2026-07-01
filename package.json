@@ -31,7 +31,8 @@
     "rattail": "catalog:",
     "tinyexec": "catalog:",
     "typescript": "catalog:",
-    "vite-plus": "catalog:"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b",
+    "vite-plus": "0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0",
@@ -40,8 +41,18 @@
   "packageManager": "pnpm@9.15.9",
   "pnpm": {
     "overrides": {
-      "vite": "catalog:",
-      "vitest": "catalog:"
+      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b",
+      "vitest": "4.1.9"
+    },
+    "peerDependencyRules": {
+      "allowAny": [
+        "vite",
+        "vitest"
+      ],
+      "allowedVersions": {
+        "vite": "*",
+        "vitest": "*"
+      }
     }
   }
 }

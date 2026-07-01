@@ -60,7 +60,7 @@
     "sharp": "0.31.1",
     "tinyexec": "catalog:",
     "typescript": "catalog:",
-    "vite-plus": "catalog:",
+    "vite-plus": "0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b",
     "vue": "catalog:"
   },
   "devDependencies": {
@@ -75,7 +75,8 @@
     "@varlet/icons": "workspace:*",
     "@varlet/touch-emulator": "workspace:*",
     "@varlet/ui": "workspace:*",
-    "rimraf": "catalog:"
+    "rimraf": "catalog:",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fcd4a979bd79b8328dd3318e451fc135242c0e4b"
   },
   "peerDependencies": {
     "@varlet/icons": "workspace:*",
