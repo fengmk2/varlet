@@ -64,6 +64,9 @@ export default defineComponent({
 
     onSmartMounted(async () => {
       await doubleRaf()
+      if (!stickyEl.value) {
+        return
+      }
       setupScroller()
       handleScroll()
     })
@@ -77,7 +80,7 @@ export default defineComponent({
     function computeFixedParams(): StickyFixedParams | undefined {
       const { cssMode, disabled } = props
 
-      if (disabled) {
+      if (disabled || !stickyEl.value || !wrapperEl.value) {
         return
       }
 
